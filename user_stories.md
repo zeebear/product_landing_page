@@ -20,6 +20,8 @@
 
     https://devdocs.io/html/element/input/email#Validation suggests that that happens automatically?? Check this
 
+    Currently accepts foo@boo as valid, and redirects to the fCC page. Oops.
+
 [x] User Story #11: Within the form, there is a submit input with a corresponding id="submit".
 
 [\] User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
