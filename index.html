@@ -12,10 +12,12 @@
   </ul></nav></header>
   <main>
     <video src="" id="video"></video>
-    <form action="" id="form">
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
       <label for="email">Enter your email address:</label>
-      <input type="email" id="email" placeholder="your@email.here" title="Please provide a valid email" required>
-      <input type="submit" id="submit" value="Let's go!" formaction="https://www.freecodecamp.com/email-submit" formmethod="post" formtarget="_self">
+      <input type="email" id="email" name="email" placeholder="your@email.here" title="Please provide a valid email" required>
+      <input type="submit" id="submit" value="Let's go!">
+      <!-- formaction="https://www.freecodecamp.com/email-submit" formmethod="post" formtarget="_self" -->
+      <!-- pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" -->
     </form>
   </main>
 </body>
