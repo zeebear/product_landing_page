@@ -1,4 +1,4 @@
-## Caelan's Premium Cauldrons
+## Caelan's Custom Cauldrons
 
 Caelan means "The Slender One"
 
@@ -23,6 +23,15 @@ Enter your owlmail address here to receive our monthly catalogue at no expense t
 #### Our Products (5)
 - Dangers of exploding cauldrons:
 http://hedgecroft.net/blogs/?p=190
+
+
+
+- We can repair your family's heirloom cauldron
+Nannau Cauldron
+
+- Wide range of materials, prices
+
+- Custom-sourced cauldrons on demand
 
 #### Highlights: Self-spelling Cauldrons (5, 15)
 - Self-spelling cauldron 1:
@@ -111,3 +120,9 @@ Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucal
 
 Potion icon:
 Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+<iframe src="https://player.vimeo.com/video/309629772?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/309629772">Nannau Cauldron</a> from <a href="https://vimeo.com/snowdonia">Ian King</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="https://player.vimeo.com/video/163630685" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/163630685">The wizard&#039;s cauldron</a> from <a href="https://vimeo.com/user6241448">Mark Jensen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
