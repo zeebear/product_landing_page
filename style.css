@@ -1,3 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background-color: transparent;
+  /*color: black;*/
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+#nav-bar {
+  background-color: lightgrey;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
 #header-img {
   width: 42px;
 }
