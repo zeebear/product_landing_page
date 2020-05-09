@@ -126,3 +126,10 @@ Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat 
 
 <iframe src="https://player.vimeo.com/video/163630685" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/163630685">The wizard&#039;s cauldron</a> from <a href="https://vimeo.com/user6241448">Mark Jensen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+---
+
+Things to correct:
+
+- legibility
+- mobile D-:
