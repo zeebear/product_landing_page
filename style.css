@@ -1,3 +1,56 @@
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+/* as found here: https://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972 */
+
+@media screen and (max-width: 650px) {
+  #nav-bar {
+    background-color: lightgrey;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+  }
+
+  #nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Eagle Lake', cursive, sans-serif;
+  }
+
+  #video, #cauldron-vid {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  iframe {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #video, #cauldron-vid {
+    width: 650px;
+    margin: 0 auto;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -114,9 +167,15 @@ input[type=email] {
   background-color: black;
 }
 
-#video, #cauldron-vid {
+/*#video, #cauldron-vid {
   width: 650px;
   margin: 0 auto;
+  }*/
+
+  iframe {
+/*  width: 640px;
+height: 360px;*/
+border: 0;
 }
 
 #products, #highlights, #video_repair, footer {
