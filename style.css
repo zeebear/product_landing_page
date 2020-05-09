@@ -132,8 +132,20 @@ input[type=email] {
   text-align: center;
 }
 
+#highlights {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.highlight{
+  width: 25vw;
+  padding: 16px;
+  text-align: justify;
+}
+
 .highlight img {
-  width: 400px;
+  width: 25vw;
 }
 
 footer {
