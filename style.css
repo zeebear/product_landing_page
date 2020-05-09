@@ -142,10 +142,12 @@ input[type=email] {
   width: 25vw;
   padding: 16px;
   text-align: justify;
+  min-width: 250px;
 }
 
 .highlight img {
   width: 25vw;
+  min-width: 250px;
 }
 
 footer {
