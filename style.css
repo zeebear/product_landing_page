@@ -29,13 +29,13 @@
     font-family: 'Eagle Lake', cursive, sans-serif;
   }
 
-  #video, #cauldron-vid {
+  /*#video, #cauldron-vid {
     width: 300px;
     margin: 0 auto;
-  }
+  }*/
 
   iframe {
-    width: 60vw;
+    width: 75vw;
   }
 }
 
