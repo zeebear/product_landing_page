@@ -3,13 +3,52 @@ body {
   padding: 0;
   border: 0;
   vertical-align: baseline;
-  background-color: transparent;
-  /*color: black;*/
+  background-color: black;
+  color: white;
 }
 
 header {
   position: sticky;
   top: 0px;
+}
+
+main {
+  width: 100%;
+}
+
+#header-name {
+  font-family: 'Uncial Antiqua', cursive, sans-serif;
+  /*font-size: xx-large;*/
+}
+
+h1, h2 {
+  font-family: 'Uncial Antiqua', cursive, sans-serif;
+  font-size: xx-large;
+  color: #ffcb47;
+}
+
+h3, #email-label, .ad-text {
+  font-family: 'Eagle Lake', cursive, sans-serif;
+}
+
+h3, #submit {
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #ffa533;
+}
+
+#submit {
+  color: #ffcb47;
+}
+
+input[type=email], #submit, #ad-logo {
+  font-family: 'Uncial Antiqua', cursive, sans-serif;
+}
+
+p {
+  font-family: 'Philosopher', sans-serif;
 }
 
 #nav-bar {
@@ -19,19 +58,40 @@ header {
   justify-content: space-between;
 }
 
+#header-img {
+  height: 64px;
+  padding: 2px 10px;
+}
+
 #logo {
   display: flex;
   justify-content: space-around;
+  padding: 0 10px;
 }
 
 #nav-bar ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  font-family: 'Eagle Lake', cursive, sans-serif;
 }
 
-#header-img {
-  width: 42px;
+#nav-bar li {
+  padding: 0 10px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar a:hover {
+  color: #3d3220;
+}
+
+#video {
+  width: 650px;
+  margin: 0 auto;
 }
 
 #exploded_cauldron {
