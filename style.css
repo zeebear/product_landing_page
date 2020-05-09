@@ -29,25 +29,37 @@
     font-family: 'Eagle Lake', cursive, sans-serif;
   }
 
-  /*#video, #cauldron-vid {
-    width: 300px;
+  #products, #highlights, #video_repair, footer {
+    width: 95vw;
     margin: 0 auto;
-  }*/
+  }
 
   iframe {
     width: 75vw;
   }
+
+  #exploded_cauldron {
+    width: 100vw;
+    float: left;
+  }
 }
 
 @media screen and (min-width: 650px) {
-  #video, #cauldron-vid {
-    width: 650px;
+
+  #products, #highlights, #video_repair, footer {
+    width: 60vw;
     margin: 0 auto;
   }
 
   iframe {
     width: 640px;
     height: 360px;
+    margin: 0 auto;
+  }
+
+  #exploded_cauldron {
+    width: 150px;
+    float: right;
   }
 }
 
@@ -167,25 +179,13 @@ input[type=email] {
   background-color: black;
 }
 
-/*#video, #cauldron-vid {
+#video-position {
   width: 650px;
   margin: 0 auto;
-  }*/
-
-  iframe {
-/*  width: 640px;
-height: 360px;*/
-border: 0;
 }
 
-#products, #highlights, #video_repair, footer {
-  width: 60vw;
-  margin: 0 auto;
-}
-
-#exploded_cauldron {
-  width: 150px;
-  float: right;
+iframe {
+  border: 0;
 }
 
 #highlights-jump {
