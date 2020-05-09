@@ -27,6 +27,10 @@ h1, h2 {
   color: #ffcb47;
 }
 
+h2, h3 {
+  text-align: center;
+}
+
 h3, #email-label, .ad-text {
   font-family: 'Eagle Lake', cursive, sans-serif;
 }
@@ -39,7 +43,11 @@ h3 {
   color: #ffa533;
 }
 
-#submit {
+#ad-logo {
+  color: #ffa533;
+}
+
+#submit, .ad-text {
   color: #ffcb47;
 }
 
@@ -47,7 +55,7 @@ input[type=email], #submit, #ad-logo {
   font-family: 'Uncial Antiqua', cursive, sans-serif;
 }
 
-p {
+p, footer {
   font-family: 'Philosopher', sans-serif;
 }
 
@@ -89,15 +97,54 @@ p {
   color: #3d3220;
 }
 
-#video {
+#form {
+  width: 300px;
+  margin: 36px auto;
+}
+
+input[type=email] {
+  width: 97%;
+  font-size: 24px;
+  margin: 5px auto;
+}
+
+#submit {
+  width: 100%;
+  font-size: 24px;
+}
+
+#video, #cauldron-vid {
   width: 650px;
+  margin: 0 auto;
+}
+
+#products, #highlights, #video_repair, footer {
+  width: 60vw;
   margin: 0 auto;
 }
 
 #exploded_cauldron {
   width: 150px;
+  float: right;
+}
+
+#highlights-jump {
+  text-align: center;
 }
 
 .highlight img {
   width: 400px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #544a33;
+}
+
+footer a:hover {
+  color: #ffa533;
 }
