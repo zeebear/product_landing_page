@@ -133,3 +133,7 @@ Things to correct:
 
 - legibility
 - mobile D-:
+- add links to videos in footer
+- change position of email capture
+- move title above video
+- change navbar link to email instead of about us
