@@ -137,3 +137,4 @@ Things to correct:
 - change position of email capture
 - move title above video
 - change navbar link to email instead of about us
+- use borders to delineate navbar instead of background color? The yellows of the cauldron?
