@@ -173,6 +173,7 @@ p, footer {
   text-align: justify;
   letter-spacing: 2px;
   line-height: 130%;
+  font-size: large;
 }
 
 #products {
@@ -214,6 +215,7 @@ p, footer {
   min-width: 250px;
   letter-spacing: 2px;
   line-height: 130%;
+  font-size: large;
 }
 
 .highlight img {
