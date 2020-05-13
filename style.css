@@ -6,35 +6,26 @@
 
 @media screen and (max-width: 650px) {
   #nav-bar {
-    background-color: papayawhip;
-    color: black;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  #logo {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 10px;
   }
 
   #nav-bar ul {
     position: absolute;
     top: -100px;
     left: -100px;
-    list-style: none;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    font-family: 'Eagle Lake', cursive, sans-serif;
   }
 
   #products, #highlights, #video_repair, footer {
     width: 95vw;
     margin: 0 auto;
+  }
+
+  #products {
+    border-bottom: 1px dashed #ffa533;
   }
 
   #video-position, #cauldron-vid {
@@ -46,6 +37,44 @@
 
   #ad-logo {
     font-size: xx-large;
+  }
+}
+
+@media screen and (min-width: 650px) {
+
+  #nav-bar {
+    justify-content: space-between;
+  }
+
+  #nav-bar li {
+    padding: 0 10px;
+  }
+
+  #nav-bar a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #nav-bar a:hover {
+    color: darkgrey;
+  }
+
+  #products, #highlights, #video_repair, footer {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  #video-position, #cauldron-vid {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    border: none;
   }
 }
 
@@ -115,9 +144,29 @@ p, footer {
   font-family: 'Philosopher', sans-serif;
 }
 
+#nav-bar {
+  background-color: papayawhip;
+  color: black;
+  display: flex;
+}
+
 #header-img {
   height: 64px;
   padding: 2px 10px;
+}
+
+
+#logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Eagle Lake', cursive, sans-serif;
 }
 
 .body-text {
@@ -126,7 +175,6 @@ p, footer {
 
 #products {
   padding-bottom: 16px;
-  border-bottom: 1px dashed #ffa533;
 }
 
 #ad-logo, .ad-text {
