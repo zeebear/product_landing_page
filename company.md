@@ -130,7 +130,8 @@ Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat 
 ---
 
 Repaired cauldron image:
-https://www.chairish.com/product/174164/large-antique-copper-cauldron
+https://www.xupes.com/art/product-details/2051/christopher-dresser/elkington-silver-plated-cauldron-and-stand-by-christopher-dresser-c1885.html
+https://www.xupes.com/userfiles/images/product/2051/multiimages/resize/006_elkington_silver_plated_cauldron_stand_by_christopher_dresser.jpg
 
 Things to correct:
 
@@ -141,3 +142,4 @@ Things to correct:
 - move title above video
 - change navbar link to email instead of about us
 - use borders to delineate navbar instead of background color? The yellows of the cauldron?
+- put replacement cauldron photo in place of 2nd video for mobiles (maybe smaller photo? for quicker loading?)
