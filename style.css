@@ -34,12 +34,26 @@
     margin: 0 auto;
   }
 
-  iframe {
-    width: 75vw;
+
+  #video-position, #cauldron-vid {
+    display: none;
+    /*width: 95vw;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
   }
 
+  /*iframe {*/
+    /*object-position: left top;*/
+    /*object-fit: contain;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 300px;*/
+    /*height: 169px;*/
+  /*}*/
+
   #exploded_cauldron {
-    width: 100vw;
+    width: 95vw;
     float: left;
   }
 }
@@ -61,6 +75,13 @@
     width: 150px;
     float: right;
   }
+
+
+  #video-position, #cauldron-vid {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+  }
 }
 
 body {
@@ -75,6 +96,8 @@ body {
 header {
   position: sticky;
   top: 0px;
+  z-index: 999;
+
 }
 
 main {
@@ -179,13 +202,9 @@ input[type=email] {
   background-color: black;
 }
 
-#video-position, #cauldron-vid {
-  width: 650px;
-  margin: 0 auto;
-}
-
 iframe {
   border: 0;
+  z-index: -1;
 }
 
 #highlights-jump {

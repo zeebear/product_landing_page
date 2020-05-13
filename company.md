@@ -129,6 +129,9 @@ Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat 
 
 ---
 
+Repaired cauldron image:
+https://www.chairish.com/product/174164/large-antique-copper-cauldron
+
 Things to correct:
 
 - legibility
