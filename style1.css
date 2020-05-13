@@ -21,9 +21,6 @@
   }
 
   #nav-bar ul {
-    position: absolute;
-    top: -100px;
-    left: -100px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -37,6 +34,7 @@
     margin: 0 auto;
   }
 
+
   #video-position, #cauldron-vid {
     display: none;
     /*width: 95vw;*/
@@ -44,12 +42,47 @@
     /*position: relative;*/
   }
 
-  #ad-logo {
-    font-size: xx-large;
+  /*iframe {*/
+    /*object-position: left top;*/
+    /*object-fit: contain;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 300px;*/
+    /*height: 169px;*/
+  /*}*/
+
+  #exploded_cauldron {
+    width: 95vw;
+    float: left;
   }
 }
 
-/*These are common to both and seem to not cause problems*/
+@media screen and (min-width: 650px) {
+
+  #products, #highlights, #video_repair, footer {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+  }
+
+  #exploded_cauldron {
+    width: 150px;
+    float: right;
+  }
+
+
+  #video-position, #cauldron-vid {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
 
 body {
   margin: 0;
@@ -103,7 +136,7 @@ h3 {
   color: #ffa533;
 }
 
-.ad-text {
+#submit, .ad-text {
   color: #ffcb47;
 }
 
@@ -115,40 +148,68 @@ p, footer {
   font-family: 'Philosopher', sans-serif;
 }
 
+#nav-bar {
+  background-color: papayawhip;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
 #header-img {
   height: 64px;
   padding: 2px 10px;
 }
 
-.body-text {
-  text-align: justify;
+#logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
 }
 
-#products {
-  padding-bottom: 16px;
-  border-bottom: 1px dashed #ffa533;
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Eagle Lake', cursive, sans-serif;
+}
+
+#nav-bar li {
+  padding: 0 10px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar a:hover {
+  color: #3d3220;
+}
+
+#form {
+  width: 300px;
+  margin: 36px auto;
+}
+
+input[type=email] {
+  width: 97%;
+  font-size: 24px;
+  margin: 5px auto;
+}
+
+#submit {
+  width: 100%;
+  font-size: 24px;
+  background-color: black;
+}
+
+iframe {
+  border: 0;
+  z-index: -1;
 }
 
 #ad-logo, .ad-text {
   text-align: center;
-}
-
-#ad-logo {
-  margin: 0 auto;
-}
-
-.ad-text {
-  text-transform: uppercase;
-  margin: 0 auto;
-}
-
-#cauldron-position {
-  display: flex;
-  justify-content: center;
-}
-
-#exploded_cauldron {
-  width: 150px;
 }
 
 #highlights {
@@ -169,34 +230,15 @@ p, footer {
   min-width: 250px;
 }
 
-#form {
-  width: 300px;
-  margin: 36px auto;
-}
-
-input[type=email] {
-  width: 97%;
-  font-size: 24px;
-  margin: 5px auto;
-  background-color: white;
-}
-
-#submit {
-  width: 100%;
-  font-size: 24px;
-  background-color: papayawhip;
-  color: #fe7f1e;
-}
-
 footer {
   text-align: center;
 }
 
 footer a {
   text-decoration: none;
-  color: papayawhip;
+  color: #544a33;
 }
 
 footer a:hover {
-  color: #ffcb47;
+  color: #ffa533;
 }
