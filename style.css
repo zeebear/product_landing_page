@@ -171,6 +171,8 @@ p, footer {
 
 .body-text {
   text-align: justify;
+  letter-spacing: 2px;
+  line-height: 130%;
 }
 
 #products {
@@ -210,6 +212,8 @@ p, footer {
   padding: 16px;
   text-align: justify;
   min-width: 250px;
+  letter-spacing: 2px;
+  line-height: 130%;
 }
 
 .highlight img {
