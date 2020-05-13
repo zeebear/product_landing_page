@@ -86,7 +86,7 @@ body {
   border: 0;
   vertical-align: baseline;
   background-color: #1f0000;
-  color: papayawhip;
+  color: #ffe2b3;
 }
 
 header {
@@ -216,6 +216,7 @@ p, footer {
   letter-spacing: 2px;
   line-height: 130%;
   font-size: large;
+  color: #ffce80;
 }
 
 .highlight img {
