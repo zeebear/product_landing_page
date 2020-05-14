@@ -35,6 +35,11 @@
     /*position: relative;*/
   }
 
+  #repair-pic {
+    display: flex;
+    justify-content: center;
+  }
+
   #ad-logo {
     font-size: xx-large;
   }
@@ -68,6 +73,10 @@
     width: 650px;
     margin: 0 auto;
     position: relative;
+  }
+
+  #repair-pic{
+    display: none;
   }
 
   iframe {
