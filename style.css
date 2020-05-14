@@ -55,15 +55,6 @@
     padding: 0 10px;
   }
 
-  #nav-bar a {
-    text-decoration: none;
-    color: black;
-  }
-
-  #nav-bar a:hover {
-    color: darkgrey;
-  }
-
   #products, #highlights, #video_repair, footer {
     width: 60vw;
     margin: 0 auto;
@@ -159,13 +150,21 @@ p, footer {
   display: flex;
 }
 
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar a:hover {
+  color: darkgrey;
+}
+
 #header-img {
   height: 64px;
   padding: 2px 10px;
 }
 
-
-#logo {
+#logo-align {
   display: flex;
   justify-content: space-around;
   padding: 0 10px;
