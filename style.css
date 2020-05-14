@@ -238,6 +238,11 @@ p, footer {
   margin: 36px auto;
 }
 
+#email-label {
+  text-align: center;
+  margin: 0 auto;
+}
+
 input[type=email] {
   width: 97%;
   font-size: 24px;
