@@ -19,7 +19,7 @@
     align-items: center;
   }
 
-  #products, #highlights, #video_repair, footer {
+  #products, #highlights, #video-repair, footer {
     width: 95vw;
     margin: 0 auto;
   }
@@ -55,12 +55,12 @@
     padding: 0 10px;
   }
 
-  #products, #highlights, #video_repair, footer {
+  #products, #highlights, #video-repair, footer {
     width: 60vw;
     margin: 0 auto;
   }
 
-  #video-position, #cauldron-vid {
+  .video-position {
     width: 650px;
     margin: 0 auto;
     position: relative;
