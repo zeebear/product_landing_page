@@ -108,13 +108,18 @@
 
 
   #products, #highlights, #video-repair, footer {
-    width: 95vw;
+    width: 85vw;
     margin: 0 auto;
   }
 
   #products {
     margin-top: 68px;
     border-bottom: 1px dashed #ffa533;
+  }
+
+  #video-repair {
+    padding: 16px 0;
+    border-top: 1px dashed #ffa533;
   }
 
   .video-position {
