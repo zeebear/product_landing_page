@@ -5,6 +5,85 @@
 /* as found here: https://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972 */
 
 @media screen and (max-width: 650px) {
+
+  input[type="checkbox"]:checked ~ #nav-bar { /*display: block;*/ /*top: 0px;*/ transform: translateY(0px) }
+
+/*toggle styling */
+
+  input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+  }
+
+  .spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #3d3220;
+  }
+
+  .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+  }
+
+  .diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+  }
+
+  /*toggle styling*/
+
   #nav-bar {
     position: fixed;
     /*top: -224px;*/
@@ -40,7 +119,6 @@
     border-style: double solid solid double;
   }
 
-  input[type="checkbox"]:checked ~ #nav-bar { /*display: block;*/ /*top: 0px;*/ transform: translateY(0px) }
 
   #products, #highlights, #video-repair, footer {
     width: 95vw;
@@ -69,6 +147,10 @@
 }
 
 @media screen and (min-width: 650px) {
+
+  input[type=checkbox] {
+    display: none;
+  }
 
   #nav-bar {
     justify-content: space-between;
