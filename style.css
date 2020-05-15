@@ -360,9 +360,9 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: papayawhip;
+  color: #ffce80;
 }
 
 footer a:hover {
-  color: #ffcb47;
+  color: papayawhip;
 }
