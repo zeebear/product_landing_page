@@ -28,7 +28,7 @@
     border-bottom: 1px dashed #ffa533;
   }
 
-  #video-position, #cauldron-vid {
+  .video-position {
     display: none;
     /*width: 95vw;*/
     /*margin: 0 auto;*/
