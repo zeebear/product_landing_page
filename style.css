@@ -6,18 +6,41 @@
 
 @media screen and (max-width: 650px) {
   #nav-bar {
+    position: fixed;
+    /*top: -224px;*/
+    top: 0;
+    display: block flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    transform: translateY(-224px);
   }
 
   #nav-bar ul {
-    position: absolute;
-    top: -100px;
-    left: -100px;
+    /*position: absolute;*/
+    /*top: -100px;*/
+    /*left: -100px;*/
     flex-direction: column;
     align-items: center;
+    padding-inline-start: 0px;
   }
+
+  #nav-bar li {
+    height: 40px;
+    width: 100%;
+    border: 4px #1f0000;
+    border-style: solid double double solid;
+    margin: 2px;
+    padding: 12px 12px 0 12px;
+    text-align: center;
+  }
+
+  #nav-bar li:active {
+    border-style: double solid solid double;
+  }
+
+  input[type="checkbox"]:checked ~ #nav-bar { /*display: block;*/ /*top: 0px;*/ transform: translateY(0px) }
 
   #products, #highlights, #video-repair, footer {
     width: 95vw;
@@ -93,8 +116,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 999;
-
+  /*z-index: 98;*/
 }
 
 main {
