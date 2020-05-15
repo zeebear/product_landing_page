@@ -17,6 +17,7 @@
   }
 
   .sidebarIconToggle {
+    position: -webkit-sticky;
     position: sticky;
     transition: all 0.3s;
     box-sizing: border-box;
