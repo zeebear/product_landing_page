@@ -106,6 +106,21 @@
     border-style: double solid solid double;
   }
 
+  iframe {
+    width: 100%;
+    border: 0;
+  }
+
+  .video-position {
+    /*display: none;*/
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #video {
+    margin-top: 76px;
+  }
 
   #products, #highlights, #cauldron-repair, footer {
     width: 85vw;
@@ -120,22 +135,6 @@
   #video-repair {
     padding: 16px 0 0 0;
     border-top: 1px dashed #ffa533;
-  }
-
-  .video-position {
-    /*display: none;*/
-    width: 95vw;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  iframe {
-    width: 100%;
-    border: 0;
-  }
-
-  #video {
-    margin-top: 76px;
   }
 
   #repair-pic {
@@ -164,9 +163,11 @@
     padding: 0 10px;
   }
 
-  #products, #highlights, #cauldron-repair, footer {
-    width: 60vw;
+  iframe {
+    width: 640px;
+    height: 360px;
     margin: 0 auto;
+    border: none;
   }
 
   .video-position {
@@ -175,15 +176,18 @@
     position: relative;
   }
 
-  #repair-pic{
-    display: none;
+  #products, #highlights, #cauldron-repair, footer {
+    width: 60vw;
+    margin: 0 auto;
   }
 
-  iframe {
-    width: 640px;
-    height: 360px;
-    margin: 0 auto;
-    border: none;
+  #cauldron-position {
+    /*width: 100%;*/
+    float: left;
+  }
+
+  #repair-pic{
+    display: none;
   }
 }
 
