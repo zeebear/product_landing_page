@@ -113,24 +113,34 @@
   }
 
   #products {
-    margin-top: 68px;
+    /*margin-top: 68px;*/
     border-bottom: 1px dashed #ffa533;
   }
 
   #video-repair {
-    padding: 16px 0;
+    padding: 16px 0 0 0;
     border-top: 1px dashed #ffa533;
   }
 
   .video-position {
-    display: none;
-    /*width: 95vw;*/
-    /*margin: 0 auto;*/
-    /*position: relative;*/
+    /*display: none;*/
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  iframe {
+    width: 100%;
+    border: 0;
+  }
+
+  #video {
+    margin-top: 76px;
   }
 
   #repair-pic {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     justify-content: center;
   }
 
