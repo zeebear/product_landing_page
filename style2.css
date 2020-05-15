@@ -1,0 +1,417 @@
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+/* as found here: https://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972 */
+
+@media screen and (max-width: 650px) {
+  #nav-bar {
+    /*height: 350px;*/
+    /*width: 100%;*/
+    top: 68px;
+    /*position: fixed;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-224px);
+    transition: transform 250ms ease-in-out;
+  }
+
+  #nav-bar ul {
+    /*position: absolute;*/
+    /*top: -100px;*/
+    /*left: -100px;*/
+    padding-inline-start: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar li {
+    height: 40px;
+    width: 100%;
+    border: 4px #1f0000;
+    border-style: solid double double solid;
+    margin: 2px;
+    padding: 12px 12px 0 12px;
+    text-align: center;
+  }
+
+  #nav-bar li:active {
+    border-style: double solid solid double;
+  }
+
+  /*sidebar menu stuff*/
+/*
+  #sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+  }
+
+  .sidebarMenuInner {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+  }
+
+  .sidebarMenuInner li {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  }
+
+  .sidebarMenuInner li span {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+  }
+
+  .sidebarMenuInner li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /*sidebar menu stuff*/
+
+  /*toggle styling */
+  input[type="checkbox"]:checked ~ #nav-bar { transform: translateY(0); }
+
+  input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+  }
+
+  .spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #3d3220;
+  }
+
+  .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+  }
+
+  .diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+  }
+
+  /*toggle styling*/
+
+  #products, #highlights, #video-repair, footer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  #video-position, #cauldron-vid {
+    display: none !important;
+  }
+
+  #products {
+    margin-top: 62px;
+    border-bottom: 1px dashed #ffa533;
+  }
+
+  #repair-pic {
+    display: flex;
+    justify-content: center;
+  }
+
+  #ad-logo {
+    font-size: xx-large;
+  }
+}
+
+@media screen and (min-width: 650px) {
+
+  #nav-bar {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #nav-bar li {
+    padding: 0 10px;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  #products, #highlights, #video-repair, footer {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .video-position {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #repair-pic{
+    display: none;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    border: none;
+  }
+}
+
+/*These are common to both and seem to not cause problems*/
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background-color: #1f0000;
+  color: #ffbb4d;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+
+}
+
+main {
+  width: 100%;
+}
+
+#header-name {
+  font-family: 'Uncial Antiqua', cursive, sans-serif;
+  /*font-size: xx-large;*/
+}
+
+h1, h2 {
+  font-family: 'Uncial Antiqua', cursive, sans-serif;
+  font-size: xx-large;
+  color: #ffcb47;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+h3, #email-label, .ad-text {
+  font-family: 'Eagle Lake', cursive, sans-serif;
+}
+
+h3, #submit {
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #ffa533;
+}
+
+#ad-logo {
+  color: #ffa533;
+}
+
+.ad-text {
+  color: #ffcb47;
+}
+
+input[type=email], #submit, #ad-logo {
+  font-family: 'Uncial Antiqua', cursive, sans-serif;
+}
+
+p, footer {
+  font-family: 'Philosopher', sans-serif;
+}
+
+#nav-bar {
+  background-color: papayawhip;
+  color: black;
+  display: flex;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#nav-bar a:hover {
+  color: darkgrey;
+}
+
+#header-img {
+  height: 64px;
+  padding: 2px 10px;
+}
+
+#logo-align {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Eagle Lake', cursive, sans-serif;
+}
+
+.body-text {
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 130%;
+  font-size: large;
+}
+
+#products {
+  padding-bottom: 16px;
+}
+
+#ad-logo, .ad-text {
+  text-align: center;
+}
+
+#ad-logo {
+  margin: 0 auto;
+}
+
+.ad-text {
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+#cauldron-position {
+  display: flex;
+  justify-content: center;
+}
+
+#exploded_cauldron {
+  width: 150px;
+}
+
+#highlights {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.highlight{
+  width: 25vw;
+  padding: 16px;
+  text-align: justify;
+  min-width: 250px;
+  letter-spacing: 2px;
+  line-height: 130%;
+  font-size: large;
+  color: #ffce80;
+}
+
+.highlight img {
+  width: 25vw;
+  min-width: 250px;
+}
+
+#form {
+  width: 300px;
+  margin: 36px auto;
+}
+
+#email-label {
+  text-align: center;
+  margin: 0 auto;
+}
+
+input[type=email] {
+  width: 97%;
+  font-size: 24px;
+  margin: 5px auto;
+  background-color: white;
+}
+
+#submit {
+  width: 100%;
+  font-size: 24px;
+  background-color: papayawhip;
+  color: #3d3220;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: papayawhip;
+}
+
+footer a:hover {
+  color: #ffcb47;
+}
