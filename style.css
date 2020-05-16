@@ -199,7 +199,8 @@ body {
   border: 0;
   vertical-align: baseline;
   background-color: #1f0000;
-  color: #ffbb4d;
+  /*color: #ffbb4d;*/
+  color: #ffce80;
 }
 
 header {
@@ -374,7 +375,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #ffce80;
+  color: #ffbb4d;
 }
 
 footer a:hover {
