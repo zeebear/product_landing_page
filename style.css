@@ -111,25 +111,25 @@
     border: 0;
   }
 
-  .video-position {
-    /*display: none;*/
-    width: 95vw;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  #video {
-    margin-top: 76px;
-  }
-
   #products, #highlights, #cauldron-repair, footer {
     width: 85vw;
     margin: 0 auto;
   }
 
   #products {
-    /*margin-top: 68px;*/
+    margin-top: 68px;
     border-bottom: 1px dashed #ffa533;
+  }
+
+  .video-position {
+    /*display: none;*/
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #video {
+    /*margin-top: 76px;*/
   }
 
   #video-repair {
