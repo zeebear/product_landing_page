@@ -132,6 +132,14 @@
     /*margin-top: 76px;*/
   }
 
+  #cauldron-position-large {
+    display: none;
+  }
+
+  #cauldron-position-small {
+    text-align: center;
+  }
+
   #video-repair {
     padding: 16px 0 0 0;
     border-top: 1px dashed #ffa533;
@@ -181,9 +189,13 @@
     margin: 0 auto;
   }
 
-  #cauldron-position {
-    /*width: 100%;*/
-    float: left;
+  #cauldron-position-large {
+    float: right;
+    padding: 10px;
+  }
+
+  #cauldron-position-small {
+    display: none;
   }
 
   #repair-pic{
