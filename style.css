@@ -198,6 +198,13 @@
     display: none;
   }
 
+  .highlight-photo {
+    height: 268.8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+
   #repair-pic{
     display: none;
   }
